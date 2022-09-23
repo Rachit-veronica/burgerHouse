@@ -1,0 +1,105 @@
+.orderOuterBody {
+  width: 100%;
+  height: min-content;
+}
+.orderInnerBody {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.itemCardBody {
+  margin-top: 2%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.itemCard {
+  max-width: 33.33%;
+  height: min-content;
+}
+.cardItemImg img {
+  width: 90%;
+  height: auto;
+}
+.orderText {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 80%;
+}
+.cardTextItem h1 {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 22px;  
+  color: rgb(90, 51, 0);
+}
+.cardTextItem p {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 22px;
+}
+.itemCard button {
+  background-color: red;
+  width: 50%;
+  color: white;
+}
+.itemCard button:hover {
+  background-color: white;
+  width: 50%;
+  color: red;
+}
+.tag {
+  max-width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: rgb(220, 145, 5);
+  margin-bottom: 2%;
+}
+.tag h4 {
+  font-size: 22px;
+}
+.orderText h1 {
+  font-size: 300%;
+  font-weight: 700;
+  color: rgb(90, 51, 0);
+}
+@media (max-width: 860px) {
+  .itemCardBody {
+    margin-top: 2%;
+    display: grid;
+  }
+  .itemCard {
+    max-width: 100%;
+    height: min-content;
+    margin-bottom: 5%;
+  }
+  .cardItemImg img {
+    width: 60%;
+    height: auto;
+  }
+  .tag {
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(220, 145, 5);
+    margin-bottom: 2%;
+  }
+  .tag h4 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .orderOuterBody {
+    margin-top: 60%;
+  }
+  .tag {
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(220, 145, 5);
+    margin-bottom: 2%;
+  }
+}

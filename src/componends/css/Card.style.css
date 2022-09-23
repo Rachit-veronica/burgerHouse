@@ -1,0 +1,111 @@
+.cardOuterBody {
+  width: 100%;
+  height: 450px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.cardInnerBody {
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.rightcard {
+  width: 100%;
+  display: grid;
+}
+.popularCard {
+  background-image: url(../img/popularBurgen.jfif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 11px;
+  color: white;
+}
+.popularCardText {
+  max-width: 80%;
+  margin-left: 5%;
+  /* margin-right: 2%; */
+}
+.tasteCardText {
+  max-width: 80%;
+  margin-left: 5%;
+}
+
+.tasteCard {
+  background-image: url(../img/taste.jfif);
+  max-width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 2%;
+  margin-top: 0%;
+  border-radius: 11px;
+  color: white;
+}
+.chiliCard {
+  background-image: url(../img/chili.jpg);
+  max-width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  border-radius: 11px;
+  color: white;
+}
+.chiliCardText {
+  max-width: 80%;
+  margin-left: 5%;
+}
+@media (max-width: 860px) {
+  .cardOuterBody {
+    width: 100%;
+    height: 450px;
+    margin-top: 5%;
+    margin-bottom: 30%;
+  }
+  .cardInnerBody {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .popularCard {
+    background-image: url(../img/popularBurgen.jfif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    color: white;
+  }
+  .rightcard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90% 90%;
+    /* margin-bottom: 5%; */
+  }
+  .tasteCard {
+    background-image: url(../img/taste.jfif);
+    max-width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    margin-left: 0%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  .chiliCard {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/chili.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0%;
+    margin-top: 5%;
+  }
+}
